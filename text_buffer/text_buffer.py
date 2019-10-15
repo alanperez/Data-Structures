@@ -19,3 +19,12 @@ class TextBuffer:
 
     def delete_back(self, chars_to_remove):
         pass
+
+    def join(self, other_buffer):
+        pass
+
+    def split(self, split_location):
+        pass
+
+    def join_string(self, string_to_join):
+        pass
