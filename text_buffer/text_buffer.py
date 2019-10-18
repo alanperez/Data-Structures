@@ -28,3 +28,16 @@ class TextBuffer:
 
     def join_string(self, string_to_join):
         pass
+
+
+if __name__ = '__main__':
+    text = TextBuffer("super")
+
+    print(text)
+
+    text.join_string("calihdgadasdlasjdl")
+
+    print(text)
+
+    text.append(" is ")
+    text.join(TextBuffer("weird."))
